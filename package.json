@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
-  "engines": {
-    "node": "14.x"
-  },
   "author": "shovo,ontor",
   "dependencies": {
     "@emotion/react": "^11.5.0",
