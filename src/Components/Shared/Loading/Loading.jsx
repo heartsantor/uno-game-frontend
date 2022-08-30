@@ -36,7 +36,7 @@ const Root = styled.div`
 
 export default function Loading({ onLoaded }) {
   const [percentage, setPercentage] = useState(3);
-  const [completed, setCompleted] = useState(false);
+  const [completed, setCompleted] = useState(true);
 
   useEffect(() => {
     Loader.load();
