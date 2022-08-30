@@ -8,7 +8,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter
-      basename={process.env.NODE_ENV === "production" ? "/uno" : "/"}
+      basename={"/"}
     >
       <CssBaseline />
       <App />
