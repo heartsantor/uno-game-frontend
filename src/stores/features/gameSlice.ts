@@ -1,3 +1,4 @@
+/* eslint-disable no-loop-func */
 import { createSlice, PayloadAction, current } from "@reduxjs/toolkit";
 import { isNullOrUndefined } from "util";
 import { canPlayCard } from "../../BotsServer/BotsServer";
